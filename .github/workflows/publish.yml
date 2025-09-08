@@ -41,5 +41,5 @@ jobs:
                   file: ./Dockerfile
                   push: true
                   tags: |
-                      yendric/php-base:php-8.4
-                      yendric/php-base:php-8.4-${{ steps.date.outputs.today }}
+                      yendric/php-base:8.4
+                      yendric/php-base:8.4-${{ steps.date.outputs.today }}
